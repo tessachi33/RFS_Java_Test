@@ -1,0 +1,26 @@
+SQL
+
+Demonstrate your SQL knowledge by solving the following problems.
+
+Given the following tables:
+
+Course
+Course Number(PK)
+Course Name
+Professor ID
+Term
+Credits
+
+Professor
+Professor ID(PK)
+Professor Name
+Department
+
+
+	•	Construct a query that returns all courses with at least 3 credits and those that are only offered in the “fall” semester.
+
+	•	Construct a query that returns the professor name of all professors that teach “Intro to C#”.
+
+	•	Construct a relational table that would allow you to easily join these two tables together.
+
+	•	If the Course table contains millions of records, what could you do to increase the speed of queries that constantly filter on the “Term” and the “Credits” columns?
