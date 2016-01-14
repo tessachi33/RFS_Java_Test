@@ -11,3 +11,8 @@ This is a response to the code challenge for the RF SMART Junior Software Develo
 5. Go to http://localhost:4567/ in your browser, I prefer Chrome.
 6. Do not judge too harshly :p
 
+###OTHER
+
+Programming Problem solving and SQL questions are in their own corresponding text files for ease.
+
+####THANK YOU
