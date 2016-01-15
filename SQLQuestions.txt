@@ -18,9 +18,22 @@ Department
 
 
 	•	Construct a query that returns all courses with at least 3 credits and those that are only offered in the “fall” semester.
+	<!--PSEUDOCODE -->
+
+   SELECT * FROM courses WHERE credits id = 3 and course id = 3 and term id  is "fall"
 
 	•	Construct a query that returns the professor name of all professors that teach “Intro to C#”.
+	<!--PSEUDOCODE -->
+
+	 SELECT * FROM Professor Name and course id "intro to c#""
+
 
 	•	Construct a relational table that would allow you to easily join these two tables together.
+	<!--PSEUDOCODE -->
+
+	JOIN Professor Name with course id "intro to c#" ON table WHERE course id = 3 and "fall"
+
 
 	•	If the Course table contains millions of records, what could you do to increase the speed of queries that constantly filter on the “Term” and the “Credits” columns?
+
+	##I would add them to the same table since it is rare that a term with              decrease or increase credits.
